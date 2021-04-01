@@ -1,0 +1,29 @@
+{
+  "name": "stitches-zigzag",
+  "version": "0.1.0",
+  "description": "Tailwind inspired tools to build fast with Stitches",
+  "main": "stitches.config.ts",
+  "files": [
+    "stitches.config.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garand/stitches-zigzag.git"
+  },
+  "keywords": [
+    "stitches",
+    "css-in-js",
+    "react",
+    "tailwind",
+    "tailwindcss"
+  ],
+  "author": "Anthony Garand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garand/stitches-zigzag/issues"
+  },
+  "homepage": "https://github.com/garand/stitches-zigzag#readme",
+  "devDependencies": {
+    "@stitches/core": "^0.1.4"
+  }
+}
