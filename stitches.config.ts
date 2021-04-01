@@ -400,10 +400,7 @@ export const tailwind: IConfig = {
       "7xl": "80rem",
       prose: "65ch",
       ...Object.fromEntries(
-        Object.entries(screens).map(([name, size]) => [
-          `screenTest-${name}`,
-          size,
-        ])
+        Object.entries(screens).map(([name, size]) => [`screen-${name}`, size])
       ),
     },
     borderWidths: {
