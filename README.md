@@ -1,6 +1,34 @@
-# Stitches Zigzag
+# Stitches Zigzag ![https://www.npmjs.com/package/stitches-zigzag](https://img.shields.io/npm/v/stitches-zigzag)
 
 Tailwind inspired tools to build fast with Stitches
+
+## Get Started
+
+```zsh
+npm install stitches-zigzag
+```
+
+**stitches.config.ts**
+
+```ts
+import createCss from "@stitches/react";
+import { tailwind } from "stitches-zigzag";
+
+const stitches = createCss(tailwind);
+
+// ...
+```
+
+**global.ts**
+
+```ts
+import { global } from "stitches.config";
+import { modernNormalize } from "stitches-zigzag";
+
+export const globalStyles = global(modernNormalize);
+
+// ...
+```
 
 ## Exports
 
