@@ -1,4 +1,4 @@
-# Stitches Zigzag ![https://www.npmjs.com/package/stitches-zigzag](https://img.shields.io/npm/v/stitches-zigzag)
+# Stitches Zigzag [![https://www.npmjs.com/package/stitches-zigzag](https://img.shields.io/npm/v/stitches-zigzag)](https://www.npmjs.com/package/stitches-zigzag)
 
 Tailwind inspired tools to build fast with Stitches
 
