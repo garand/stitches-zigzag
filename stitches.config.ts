@@ -1,4 +1,4 @@
-import { IConfig } from "@stitches/core";
+import { IConfig, TStyledSheet } from "@stitches/core";
 
 export const screens = {
   sm: "640px",
@@ -527,7 +527,7 @@ export const tailwind: IConfig = {
   },
 };
 
-export const modernNormalize = {
+export const modernNormalize: Parameters<TStyledSheet["global"]>[0] = {
   /*
    * Document
    * ========
