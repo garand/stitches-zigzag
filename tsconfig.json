@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext"]
-  }
+    "esModuleInterop": true,
+    "lib": ["ESNext"],
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationDir": "dist/types"
+  },
+  "include": ["src"]
 }
