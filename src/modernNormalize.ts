@@ -1,6 +1,4 @@
-import { TStyledSheet } from "@stitches/core";
-
-export const modernNormalize: Parameters<TStyledSheet["global"]>[0] = {
+export const modernNormalize = {
   /*
    * Document
    * ========

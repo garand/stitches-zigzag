@@ -1,5 +1,3 @@
-import { IConfig } from "@stitches/core";
-
 export const screens = {
   sm: "640px",
   md: "768px",
@@ -8,7 +6,7 @@ export const screens = {
   "2xl": "1536px",
 };
 
-export const tailwind: IConfig = {
+export const tailwind = {
   theme: {
     colors: {
       black: "#000",
