@@ -5,6 +5,7 @@
     "outDir": "dist",
     "skipLibCheck": true,
     "declaration": true,
+    "emitDeclarationOnly": true,
     "declarationDir": "dist/types"
   },
   "include": ["src"]
