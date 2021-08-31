@@ -1,6 +1,6 @@
 {
   "name": "stitches-zigzag",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Tailwind inspired tools to build fast with Stitches",
   "sideEffects": false,
   "exports": {
