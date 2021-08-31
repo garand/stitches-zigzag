@@ -41,16 +41,16 @@
   },
   "homepage": "https://github.com/garand/stitches-zigzag#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^19.0.0",
-    "@rollup/plugin-node-resolve": "^13.0.0",
-    "@stitches/core": "^0.2.0",
-    "esbuild": "^0.12.8",
-    "rollup": "^2.51.2",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@stitches/core": "^1.0.0",
+    "esbuild": "^0.12.24",
+    "rollup": "^2.56.3",
     "rollup-plugin-esbuild": "^4.5.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "typescript": "^4.3.2"
+    "typescript": "^4.4.2"
   },
   "peerDependencies": {
-    "@stitches/core": "^0.2.0"
+    "@stitches/core": "^1.0.0"
   }
 }
